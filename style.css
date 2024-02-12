@@ -1,0 +1,65 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color:hsl(0, 0%, 8%);
+    display: grid;
+    place-items: center;
+}
+
+.main{
+    margin: 20% auto;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 2%;
+    max-width: 500px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.intro h1{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+#loc{
+    color: hsl(75, 94%, 57%);
+}
+#desc{
+    font-weight: 400;
+}
+#logo {
+    border-radius: 50%;
+}
+button{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    width: 25rem;
+    background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
+    font-weight: 700;
+}
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    transition: 200ms;
+}
+
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
