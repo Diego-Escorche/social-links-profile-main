@@ -27,17 +27,24 @@ body{
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+    margin: 10px auto;
+    margin-top: 30px;
 }
+
 #loc{
     color: hsl(75, 94%, 57%);
 }
 #desc{
     font-weight: 400;
+    font-size: 18px;
+    margin: 30px auto;
+    margin-top: 40px;
 }
 #logo {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
+    margin-top: 20px;
 }
 button{
     color: hsl(0, 0%, 100%);
