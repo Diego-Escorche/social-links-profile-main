@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     width: 400px;
     max-width: 400px;
+    height: max-content;
     max-height: max-content;
     padding: 3%;
 }
@@ -54,8 +55,8 @@ button{
     color: hsl(0, 0%, 100%);
     font-weight: 700;
     font-size: 130%;
-    border-radius: 10px;
     border: none;
+    border-radius: 1rem;
     width: 100%;
     padding: 5%;
     margin-bottom: 5%;
