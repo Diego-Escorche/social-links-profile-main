@@ -1,24 +1,21 @@
-
+*{
+    box-sizing: border-box;
+}
 body{
-    margin: 0;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     background-color:hsl(0, 0%, 8%);
-    
 }
 
 .main{
-    margin: 20% 25%;
+    margin: 20% auto;
     border-radius: 50%;
     position: relative;
     text-align: center;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 12%);
     border-radius: 2%;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    max-width: 400px;
+    max-width: 500px;
     min-width: 70px;
     height: max-content;
     max-height: max-content;
