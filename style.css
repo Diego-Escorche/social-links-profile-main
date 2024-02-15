@@ -9,14 +9,12 @@ body{
 
 .main{
     margin: 20% auto;
-    font-optical-sizing: auto;
     border-radius: 50%;
     position: relative;
     text-align: center;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 12%);
     border-radius: 2%;
-    width: 90%;
     max-width: 500px;
     min-width: 70px;
     height: max-content;
@@ -26,23 +24,24 @@ body{
 }
 .intro h1{
     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
     margin-top: 8%;
     margin-bottom: 4%;
-    font-size: 160%;
+    font-size: 170%;
 }
 
 #loc{
     color: hsl(75, 94%, 57%);
-    font-size: 90%;
+    font-size: 100%;
     margin: 0;
 }
 #desc{
     font-weight: 400;
-    font-size: 90%;
+    font-size: 110%;
     margin: 8% auto;
 }
 #logo {
